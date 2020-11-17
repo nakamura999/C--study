@@ -20,3 +20,12 @@ int main(){
     cout << endl;
     return 0;
 }
+
+// ☆listの主なメンバ関数
+// push_front()	先頭に要素を追加する。
+//push_back()	末尾に要素を追加する。
+//pop_front()	先頭の要素を削除する。
+// pop_back()	末尾の要素を削除する。
+// insert()	要素を挿入する。
+// erase()	要素を削除する。
+// clear()	全要素を削除する。

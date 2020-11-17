@@ -28,6 +28,7 @@ int main(){
     return 0;
 }
 
+// ☆vectorの主なメンバ関数
 // push_back()	要素の追加
 // clear()	要素のクリア
 // size()	配列の大きさを得る関数
