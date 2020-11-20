@@ -22,7 +22,7 @@ int main() {
 
     cout << "整数の値を入力してください:";
     cin >> n;
-    int j = n.length();
+    int j = n.length(); // 逆から数える「,」
 
     cout << "変換結果 : ";
     for(int i = 0;i < n.length();i++){
