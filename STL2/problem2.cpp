@@ -24,12 +24,6 @@ int main() {
     cin >> n;
     int j = n.length(); // 逆から数える「,」
 
-    for(int i = 0; i<11;i++) {
-        if(n != seisu[i]) {
-        cout << "整数の値を入力してください" << endl;
-        }
-    }
-
     cout << "変換結果 : ";
     for(int i = 0;i < n.length();i++){
         itr = kansu.find(n.substr(i,1));
